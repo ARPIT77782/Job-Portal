@@ -78,13 +78,15 @@ const Header = () => {
 
       {showSignIn && (
         <div
-          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
+          className="fixed inset-0 flex items-start justify-center bg-black bg-opacity-50 overflow-y-auto z-50 py-10 px-4"
           onClick={handleOverlayClick}
         >
-          <SignIn
-            signUpForceRedirectUrl="/onboarding"
-            fallbackRedirectUrl="/onboarding"
-          />
+          <div onClick={(e) => e.stopPropagation()}>
+            <SignIn
+              signUpForceRedirectUrl="/onboarding"
+              fallbackRedirectUrl="/onboarding"
+            />
+          </div>
         </div>
       )}
     </>
