@@ -303,5 +303,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Made with ❤️ | <a href="https://job-portal-wine-six.vercel.app/">Live Demo</a>
+  Made with ❤️ by <strong>Arpit Jha</strong> | <a href="https://job-portal-wine-six.vercel.app/">Live Demo</a>
 </p>
